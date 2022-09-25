@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Sans&family=Oswald:wght@700&display=swap');
+
+:root {
+    --color1: rgb(168, 57, 57);
+    --color2: rgb(49, 48, 48);
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+header {
+    padding: 200px 0;
+}
+
+header,
+footer {
+    background: rgb(54, 55, 60);
+    background: linear-gradient(90deg, rgba(54, 55, 60, 1) 22%, rgba(255, 0, 67, 0.4640231092436975) 100%);
+}
+
+.video_play {
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
+
+.video_play:hover {
+    background-color: var(--color2);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+    margin-right: -3px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.book_description {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 70px;
+}
+
+.photo_roy {
+    display: block;
+    margin: 0 auto;
+    height: 330px;
+    width: 270px;
+    margin-top: 55px;
+    box-shadow: 0px 10px 25px rgb(53, 52, 52);
+}
+
+.line {
+    width: 200px;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.ripol {
+    color: var(--color1);
+    padding-top: 50px;
+}
+
+.porog_text {
+    padding-top: 30px;
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+}
+
+.bold_text {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 19px;
+}
+
+
+/*Отзывы*/
+.section-comments {
+    margin-top: -100px;
+}
+
+.comments {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.user-comm {
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(196, 191, 191);
+}
+
+.comm_text {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/*Программа продвижения*/
+.programm_go {
+    margin-top: 90px;
+    color: var(--color1);
+    font-family: 'Oswald', sans-serif;
+}
+
+.Premier {
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+.text_premier {
+    font-size: 21px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*footer*/
+#footer {
+    margin-top: 120px;
+    height: 135px;
+}
+
+.icon_footer {
+    font-size: 32px;
+    color: rgb(189, 185, 185);
+}
+
+.icon_footer:hover {
+    color: #fff;
+}
+
+.section_go {
+    margin-top: -190px;
+}
+
+/*footer*/
+#footer {
+    margin-top: 40px;
+    height: 115px;
+}
+
+.icon_footer {
+    font-size: 32px;
+    color: rgb(189, 185, 185);
+    margin-top: 20px;
+}
+
+.icon_footer:hover {
+    color: #fff;
+}
+
+
+/*Photo*/
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 630px;
+}
+
+.h1_pres {
+    color: var(--color1);
+}
